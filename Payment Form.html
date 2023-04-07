@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Form</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <hr>
+    <h2>Please fill up your details</h2>
+    <form action="" autocomplete="off">
+        <label for="name">Name: </label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="dob">Date of Birth: </label>
+        <br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="ac_no">Account Number: </label>
+        <br>
+        <input type="number" id="ac_no" name="ac_no">
+        <br><br>
+        <label for="pin">PIN: </label>
+        <br>
+        <input type="password" id="pin" name="pin">
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender">
+        <br><br>
+        <label for="card_type">Select Card Type:</label>
+        <br>
+        <select id="card" name="card">
+            <option value="null">--Select Card--</option>
+            <option value="visa">Visa</option>
+            <option value="master">Master Card</option>
+            <option value="rupay">Rupay</option>
+        </select>
+        <br><br>
+        <label for="fee_type">Select Fee Type:</label>
+        <br>
+        <label for="Intitute Fee">Intitute Fee</label>
+        <input type="checkbox" id="Intitute Fee" name="IF">
+        <label for="Hostel Fee">Hostel Fee</label>
+        <input type="checkbox" id="Hostel Fee" name="HF">
+        <label for="Late Fee">Late Fee</label>
+        <input type="checkbox" id="Late Fee" name="LF">
+        <br><br>
+        <label for="amount">Amount</label>
+        <br>
+        <input type="number" id="amount" name="amount">
+        <br><br>
+        <input type="reset" value="Reset"> &emsp;
+        <input type="submit" value="Submit">
+        <br><br>
+    </form>
+</body>
+</html>
